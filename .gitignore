@@ -1,16 +1,29 @@
-__pycache__
-.vscode
-*.egg-info
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+*.egg-info/
+venv/
+env/
+node_modules/
+
 # Metagov Django app
 metagov/env/
-metagov/static
+metagov/static/
 metagov/db.sqlite3
 .env
+.env.*
+!.env.example
 metagov/*.log
+*.log
 
 # readthedocs
 docs/_build
 docs/env
+
+# Secrets
+*.pem
+*.key
 
 .DS_Store
 **/.DS_Store
